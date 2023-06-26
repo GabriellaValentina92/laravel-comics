@@ -8,8 +8,10 @@
     </head>
     <body>
         @include('partials.header')
-        {{-- <img src="{{ Vite::asset('resources/img/picsum30.jpg') }}" alt=""> --}}
-        {{-- @include('partials.footer') --}}
+        <main>
+            @yield('content')
+        </main>
+        @include('partials.footer')
     </body> 
 </html>
  

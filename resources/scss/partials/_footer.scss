@@ -1,0 +1,83 @@
+.bgcontainer {
+    background-image: url("/resources/img/footer-bg.jpg");
+    background-size: cover;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem;
+
+    .footer-bg {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.7rem;
+        flex: 0 0 50%;
+    }
+
+    .footer-menu {
+        color: white;
+        flex: 0 0 20%;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .sec-footer a {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .img-dc {
+        flex: 0 0 50%;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+.bg-color {
+    background-color: black;
+    padding: 0.5rem;
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.7rem;
+
+        .signUp {
+            border: 2px solid rgb(17, 138, 237);
+            padding: 0.5rem 1rem;
+        }
+
+        .signUp a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+        .icons h2 {
+            color: rgb(17, 138, 237);
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+
+        .icons img {
+            padding: 0.5rem;
+        }
+    }
+}
