@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> {{$title}} </title>
+        <title> Laravel Comics </title>
         @vite('resources/js/app.js')
     </head>
     <body>
         @include('partials.header')
         <main>
-            @yield('content')
+            @yield('main')
+            @yield('shops')
         </main>
         @include('partials.footer')
     </body> 

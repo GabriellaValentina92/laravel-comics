@@ -1,0 +1,57 @@
+.background {
+    background-color: black;
+    padding-bottom: 2rem;
+
+    .dc-series {
+        margin-left: 280px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 0.8rem;
+            font-weight: bolder;
+            background-color: rgb(7, 78, 221);
+        }
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .load {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 0.6rem 2rem;
+            font-size: 0.7rem;
+            background-color: rgb(7, 78, 221);
+            border: 1px solid rgb(7, 78, 221);
+        }
+    }
+
+    .shopOnline {
+        max-width: 1000px;
+        margin: auto;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        min-height: 100px;
+        .links {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+    }
+    .links li img {
+        width: 30px;
+        margin-right: 0.8rem;
+    }
+}
