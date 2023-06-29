@@ -1,6 +1,8 @@
+@extends('layout.base')
+
 <footer>
     <div class="bgcontainer">
-        <div class="container">
+        <div class="container-footer">
           <ul class="footer-bg">
             <li class="footer-menu">
               DC COMICS
@@ -52,7 +54,7 @@
         </div>
     </div>
     <div class="bg-color">
-        <div class="container">
+        <div class="container-icon">
           <div class="signUp"><a href="#">SIGN-UP NOW!</a></div>
           <div class="icons">
             <h2>FOLLOW US</h2>

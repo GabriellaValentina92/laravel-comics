@@ -1,3 +1,5 @@
+@extends('layout.base')
+
 @section('shops')
     <ul>
         <li class="shopOnline">
