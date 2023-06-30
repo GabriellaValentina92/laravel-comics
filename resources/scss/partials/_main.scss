@@ -17,11 +17,27 @@
 
     .container {
         max-width: 1000px;
-        margin: auto;
+        margin: 20px auto;
         padding: 0.5rem;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
+
+        .card-comic img {
+            max-width: 150px;
+            padding: 0.6rem;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        h4 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 0.6rem;
+            color: white;
+            inline-size: 100px;
+        }
     }
     .load {
         text-align: center;
@@ -35,23 +51,29 @@
             border: 1px solid rgb(7, 78, 221);
         }
     }
+}
 
-    .shopOnline {
-        max-width: 1000px;
-        margin: auto;
-        padding: 0.5rem;
+.merchandise {
+    background-color: rgb(7, 127, 246);
+}
+
+.shopOnline {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+
+    .links {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        min-height: 100px;
-        .links {
-            display: flex;
-            align-items: center;
-            list-style: none;
+        list-style: none;
+
+        li img {
+            width: 30px;
+            margin-right: 0.8rem;
         }
-    }
-    .links li img {
-        width: 30px;
-        margin-right: 0.8rem;
     }
 }

@@ -8,10 +8,7 @@
     </head>
     <body>
         @include('partials.header')
-        <main>
-            @yield('main')
-            @yield('shops')
-        </main>
+        @include('partials.main')
         @include('partials.footer')
     </body> 
 </html>

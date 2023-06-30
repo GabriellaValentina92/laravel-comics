@@ -14,9 +14,19 @@
     .footer-bg {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0.7rem;
-        flex: 0 0 50%;
+        flex: 0 0 60%;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            color: white;
+            list-style: none;
+            text-decoration: none;
+        }
     }
 
     .footer-menu {
@@ -33,7 +43,7 @@
     }
 
     .img-dc {
-        flex: 0 0 50%;
+        flex: 0 0 40%;
         height: 100%;
         overflow: hidden;
 
